@@ -1,0 +1,38 @@
+
+body{
+    
+        background: linear-gradient(300deg,#F4C430,#FF6600,#FFFF00);
+        background-size: 180% 180%;
+        animation: gradient-animation 5s ease infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      
+      #name{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+.heading{
+    font-family: serif;
+    color: #1D5D9B !important;
+}
+.lead{ 
+    font-family: sans-serif;
+    color: #36454F !important;
+}
+#home{
+    color: white !important;
+}
+.nav-link{
+    color:   #36454F!important;
+    font-weight: bold;
+}
